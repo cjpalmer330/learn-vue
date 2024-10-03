@@ -1,6 +1,6 @@
 <template>
-  <currentMonth
-    id="my-chart-id"
+  <Bar
+    id="currentMonth"
     :options="chartOptions"
     :data="chartData"
   />
@@ -47,7 +47,7 @@ export default {
           },
           title: {
             display: true,
-            text: 'Stacked Bar Chart Example'
+            text: 'Expenses and Income This Month'
           }
         }
       }

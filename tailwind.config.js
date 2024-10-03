@@ -5,8 +5,13 @@ export default {
     './components/**/*.{html,js,vue,ts}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'sans': ['"Courier Prime"'],
+      },
+    },
   },
   plugins: [],
+  
 }
 

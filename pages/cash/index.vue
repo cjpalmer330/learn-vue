@@ -2,7 +2,6 @@
   // ----------CASH CHARTS FOR NETWORTH AND BANK INFORMATION--------------------
   import Header from '~/components/Header.vue'
   import '~/server/input.css'
-  import Chart from '~/components/CashChart.component.vue'
 </script>
 <template>
   <div class="h-16">
@@ -11,7 +10,7 @@
   <div class="h-96 bg-gradient-to-t from-green-600 to-green-100">
     <h1 class="text-white text-6xl font-mono text-center p-32">CASH GRAPHS</h1>
   </div>
-  <div class="h-screen bg-green-700">
+  <div class="h-screen bg-green-600">
     <Chart />
   </div>
 </template>

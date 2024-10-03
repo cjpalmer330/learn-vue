@@ -52,7 +52,7 @@ export default {
           },
           title: {
             display: true,
-            text: 'Stacked Bar Chart Example'
+            text: 'Monthly Surplus / Deficit'
           }
         }
       }

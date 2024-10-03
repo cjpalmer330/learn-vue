@@ -7,10 +7,13 @@
   <div class="h-16">
     <Header />
   </div>
-  <DIV class="h-96 bg-gradient-to-t from-green-600 to-green-100">
-    <h1 class="text-white text-6xl font-mono text-center p-32">WELCOME TO MY APP</h1>
+  <DIV class="absolute h-96 bg-gradient-to-t from-green-600 to-green-100 w-screen">
+    <div class="bg-gradient-to-b from-white rounded-2xl mt-36 ml-72 mr-72 h-64">
+      <h1 class="text-slate-700 text-6xl font-sans text-center p-16">WELCOME TO MY APP</h1>
+    </div>
   </DIV>
-  <div class="h-screen bg-green-600">
+  <!-- CONTENT AREA BELOW-->
+  <div class="ABSOULUTE h-screen bg-green-600 pt-96">
     <div class="grid grid-rows-3 p-16 gap-12">
       <div class="h-80 bg-green-700 p-4 rounded-3xl">
         <div class="text-center text-white font-mono text-2xl"> Track Your Monthly Expenses!</div>
