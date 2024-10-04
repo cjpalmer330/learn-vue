@@ -2,6 +2,8 @@
   // src/main.js
   import Header from '~/components/Header.vue'
   import '~/server/input.css'
+  import { Column, Entity } from 'typeorm';
+
 </script>
 <template>
   <div class="h-16">
