@@ -21,7 +21,7 @@
   </div>
   <!-- CONTENT AREA-->
   <div class="absolute h-screen w-full bg-green-600">
-    <div class="bg-white h-96 m-16 rounded-2xl grid grid-cols-2 shadow shadow-2xl">
+    <div class="bg-white h-96 m-16 rounded-2xl grid grid-cols-2 shadow-2xl">
       <div class="w-full m-4 p-4 gap-4 h-96 -translate-y-4">
         <monthLine />
       </div>

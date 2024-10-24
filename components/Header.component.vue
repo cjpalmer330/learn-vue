@@ -1,5 +1,3 @@
-import { ref } from 'vue'
-
 <template>
   <div class="absolute grid grid-cols-4 gap-4 w-full h-16 bg-green-100" >
   <a
@@ -32,6 +30,8 @@ import { ref } from 'vue'
 
 <script>
   import '~/server/input.css'
+  import { ref } from 'vue'
+  
   export default {
     name: "HeaderBox"
   }

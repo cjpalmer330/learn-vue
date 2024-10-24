@@ -7,11 +7,11 @@
     name: 'Home',
     components: { 
       HeaderBox
-    }
-  }
+    },
+  };
+
+  console.log("test");
 </script>
-
-
 <template>
   <div class="h-16">
     <HeaderBox />
@@ -28,21 +28,21 @@
       <div class="h-80 bg-green-700 p-4 rounded-3xl">
         <div class="text-center text-white font-mono text-2xl"> Track Your Monthly Expenses!</div>
         <div class="grid grid-cols-2 w-fit g-8">
-          <div class="border border-4 rounded-md max-w-xl p-8 columns-auto m-4">
+          <div class="border-4 rounded-md max-w-xl p-8 columns-auto m-4">
             <ul class="text-white font-mono text-lg">
               <li class="list-disc">Set a monthly budget and track how close you're following!</li>
               <li class="list-disc">Track your monthly spending compared to last month!</li>
             </ul>
           </div>
-          <div class="border border-4 rounded-md max-w-xl col-auto m-4 p-8">PLACEHOLDER FOR AN IMAGE</div>
+          <div class="border-4 rounded-md max-w-xl col-auto m-4 p-8">PLACEHOLDER FOR AN IMAGE</div>
         </div>
       </div>
       <div class="h-80 bg-green-700 p-4 rounded-3xl">
         <div class="h-80 bg-green-700 p-4 rounded-3xl">
         <div class="text-center text-white font-mono text-2xl"> Track your Cash Liquidity</div>
         <div class="grid grid-cols-2 w-fit g-8">
-          <div class="border border-4 rounded-md max-w-xl col-auto">With this app you are able to set monthly budgets that you can track with your expenses and income to ensure staying within budget</div>
-          <div class="border border-4 rounded-md max-w-xl col-auto">PLACEHOLDER FOR AN IMAGE</div>
+          <div class="border-4 rounded-md max-w-xl col-auto">With this app you are able to set monthly budgets that you can track with your expenses and income to ensure staying within budget</div>
+          <div class="border-4 rounded-md max-w-xl col-auto">PLACEHOLDER FOR AN IMAGE</div>
         </div>
       </div>
       </div>
@@ -50,8 +50,8 @@
         <div class="h-80 bg-green-700 p-4 rounded-3xl">
         <div class="text-center text-white font-mono text-2xl">Track all your cashflow</div>
         <div class="grid grid-cols-2 w-fit g-8">
-          <div class="border border-4 rounded-md max-w-xl col-auto">With this app you are able to set monthly budgets that you can track with your expenses and income to ensure staying within budget</div>
-          <div class="border border-4 rounded-md max-w-xl col-auto">PLACEHOLDER FOR AN IMAGE</div>
+          <div class="border-4 rounded-md max-w-xl col-auto">With this app you are able to set monthly budgets that you can track with your expenses and income to ensure staying within budget</div>
+          <div class="border-4 rounded-md max-w-xl col-auto">PLACEHOLDER FOR AN IMAGE</div>
         </div>
       </div>
       </div>
