@@ -9,4 +9,6 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
 })

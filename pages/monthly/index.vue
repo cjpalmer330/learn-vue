@@ -1,6 +1,6 @@
 <script>
   // src/main.js
-  import Header from '~/components/Header.vue'
+  import HeaderBox from '~/components/Header.component.vue'
   import '~/server/input.css'
 
   import BarChart from '~/components/monthlyChart.component.vue'
@@ -13,6 +13,7 @@
       BarChart, 
       currentMonth,
       monthLine,
+      HeaderBox
     }
   }
 
@@ -20,7 +21,7 @@
 </script>
 <template>
   <div class="h-16">
-    <Header />
+    <HeaderBox />
   </div>
   <div class="h-96 bg-gradient-to-t from-green-600 to-green-100">
     <h1 class="text-white text-6xl font-mono text-center p-32">MONTHLY BUDGET</h1>
@@ -29,8 +30,8 @@
   <div class="h-screen*2 bg-green-600 bg-scroll">
     <div class="grid grid-rows-3">
       <!-- this is the white bar chart area-->
-      <div class="bg-white h-96 p-4 m-8 rounded-2xl shadow-xl w-128 grid grid-cols-2" id="bar-chart">
-        <div>
+      <div class="bg-white h-96 p-4 ml-24 mr-24 mb-8 mt-8 rounded-2xl shadow-xl w-128 grid grid-cols-2" id="bar-chart">
+        <div class="h-96">
           <BarChart />
         </div>
         <div class="p-8">
@@ -38,11 +39,11 @@
         </div>
       </div>
       <!-- current month budget chart-->
-      <div class="bg-white h-96 p-4 m-8 rounded-2xl shadow-xl w-128 grid grid-cols-2">
-        <div>
+      <div class="bg-white h-96 p-4 ml-24 mr-24 mt-16 mb-8 rounded-2xl shadow-xl w-128 grid grid-cols-2">
+        <div class="h-96">
           <currentMonth />
         </div>
-        <div>
+        <div class="h-96">
           <monthLine />
         </div>
       </div>

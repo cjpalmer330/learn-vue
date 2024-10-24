@@ -1,31 +1,20 @@
 <script>
   // --------- this is the home page for the whole website. below is the splash screen ---------
-  import Header from '~/components/Header.vue'
+  import HeaderBox from '~/components/Header.component.vue'
   import '~/server/input.css'
-  import { Photo } from '~/components/Expenses'
 
-  //boiler plate shit i copied this from type-orm
-  const AppDataSource = new DataSource({
-    type: "postgres",
-    host: "localhost",
-    port: 5432,
-    username: "root",
-    password: "admin",
-    database: "test",
-    entities: [Photo],
-    synchronize: true,
-    logging: false,
-  })
-
-  AppDataSource.initialize()
-    .then(() => {
-        // here you can start to work with your database
-    })
-    .catch((error) => console.log(error))
+  export default {
+    name: 'Home',
+    components: { 
+      HeaderBox
+    }
+  }
 </script>
+
+
 <template>
   <div class="h-16">
-    <Header />
+    <HeaderBox />
   </div>
   <DIV class="absolute h-96 bg-gradient-to-t from-green-600 to-green-100 w-screen">
     <div class="bg-gradient-to-b from-white rounded-2xl mt-36 ml-72 mr-72 h-64">
@@ -33,6 +22,7 @@
     </div>
   </DIV>
   <!-- CONTENT AREA BELOW-->
+  <Header />
   <div class="ABSOULUTE h-2000 bg-green-600 pt-96">
     <div class="grid grid-rows-3 p-16 gap-12">
       <div class="h-80 bg-green-700 p-4 rounded-3xl">
